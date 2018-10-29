@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\OYMLCN.AspNetCore\OYMLCN.AspNetCore\OYMLCN.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\OYMLCN.Extension\OYMLCN.Extension\OYMLCN.Extension.csproj" />
+    <ProjectReference Include="..\OYMLCN.TencentCloud\OYMLCN.TencentCloud.csproj" />
+  </ItemGroup>
+
+</Project>
